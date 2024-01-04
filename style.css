@@ -1,0 +1,182 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.nav{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #dadada;
+
+	
+}
+
+.nav-2{
+	display: flex;
+	gap: 3vw;
+}
+.nav img{
+	width: 6vw;
+	height: 5vw;
+	padding-left: 3vw;
+}
+.nav-2 h4{
+	padding-right: 0vw;
+	font-size: 1.2vw;
+
+}
+.nav-2 i{
+	font-size: 1.5vw;
+	padding: 0.2vw;
+	display: none;
+}
+
+.cont{
+	width: 100%;
+	height:600px;
+	
+	display:flex;
+
+}
+.box1{
+	width:55%;
+	height:630px;
+	padding: 5vw 8vw;
+
+}
+.box2{
+	width:45%;
+	height:630px;
+	background-color:yellowgreen;
+	
+}
+.box2 img{
+	width:100%;
+	height:630px;
+	}
+.box1 h1{
+	font-size: 4.2vw;
+	font-weight: 700;
+	line-height: 4.4vw;
+	}
+.box1 p{
+	font-size: 1.3vw;
+	font-weight: 700;
+	width: 80%;
+	margin-top: 2vw;
+	margin-bottom: 4vw;
+
+}
+.box1 d{
+	color:lightseagreen;
+	padding-left: 6vw;
+}
+span{
+	color: #ff735c;
+	font-weight: 700;
+}
+button{
+	font-size: 1.5vw;
+	padding: 1vw 2vw;
+	background-color:  #ff735c;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: 700;
+	border: 2px solid gray;
+}
+.nav-2 button{
+	font-size: 1.4vw;
+	background-color:  #ff735c;
+	color: white;
+	padding: 0.4vw 2vw;
+	border: none;
+	border-radius: 5px;
+	margin-right: 20px;
+	height: 3vw;
+	border: 2px solid gray;
+
+}
+
+
+@media(max-width:600px){
+	.nav{
+		
+		color: #fff;
+		height: 100px;
+		width: 100%;
+
+	}
+	
+	
+	.nav-2 h4{
+		font-size: 4vw;
+		display: none;
+	}
+	.nav-2 i{
+		font-size: 6vw;
+		display: block;
+		padding: 0 4vw;
+		color: black;
+	}
+	.cont{
+		
+		flex-direction: column;
+		height: 630px;
+		position: relative;
+	
+	}
+	.box1{
+		width: 100%;
+		height: 260px;
+	
+	}
+	.box1 h1{
+		width: 100%;
+		font-size: 8vw;
+		padding: 2vw 4pw;
+		line-height: 11vw;
+
+		
+	}
+	.box1 p{
+		font-size: 4vw;
+		padding: 1vw 2vw;
+	}
+	button{
+		font-size: 4vw;
+		padding: 1vw 4vw;
+		border-radius: 5px;
+	}
+	.nav-2 button{
+		display: none;
+	}
+	.box2{
+		width: 100%;
+		height: calc(100% - 600px);
+	}
+	.box2 img{
+		width: 100%;
+		height: 500px;
+
+
+	}
+	.box1 d{
+		padding-left: 12vw;
+		color: seagreen;
+	}
+	.nav img{
+		width: 19vw;
+		height: 17vw;
+		margin-left: 20px;
+
+	}
+
+}
